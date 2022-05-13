@@ -1,0 +1,331 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DigitalOffice\\Exam\\src\\ExamService\\ExamService.csproj": {}
+  },
+  "projects": {
+    "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj",
+        "projectName": "LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef",
+        "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj",
+        "packagesPath": "C:\\Users\\mariy\\.nuget\\packages\\",
+        "outputPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mariy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
+                "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LT.DigitalOffice.Kernel": {
+              "target": "Package",
+              "version": "[1.1.59, )"
+            },
+            "LT.DigitalOffice.Kernel.BrokerSupport": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "LT.DigitalOffice.Kernel.EndpointSupport": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "LT.DigitalOffice.Kernel.ImageSupport": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "LT.DigitalOffice.Kernel.RedisSupport": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "LT.DigitalOffice.Models": {
+              "target": "Package",
+              "version": "[1.0.84, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj",
+        "projectName": "LT.DigitalOffice.ExamService.Models.Db",
+        "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj",
+        "packagesPath": "C:\\Users\\mariy\\.nuget\\packages\\",
+        "outputPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mariy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LT.DigitalOffice.Kernel": {
+              "target": "Package",
+              "version": "[1.1.59, )"
+            },
+            "LT.DigitalOffice.Kernel.BrokerSupport": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "LT.DigitalOffice.Kernel.EndpointSupport": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "LT.DigitalOffice.Kernel.ImageSupport": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "LT.DigitalOffice.Kernel.RedisSupport": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "LT.DigitalOffice.Models": {
+              "target": "Package",
+              "version": "[1.0.84, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DigitalOffice\\Exam\\src\\ExamService\\ExamService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DigitalOffice\\Exam\\src\\ExamService\\ExamService.csproj",
+        "projectName": "LT.DigitalOffice.ExamService",
+        "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService\\ExamService.csproj",
+        "packagesPath": "C:\\Users\\mariy\\.nuget\\packages\\",
+        "outputPath": "D:\\DigitalOffice\\Exam\\src\\ExamService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mariy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj": {
+                "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.5.3, )"
+            },
+            "LT.DigitalOffice.Kernel": {
+              "target": "Package",
+              "version": "[1.1.59, )"
+            },
+            "LT.DigitalOffice.Kernel.BrokerSupport": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "LT.DigitalOffice.Kernel.EndpointSupport": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "LT.DigitalOffice.Kernel.ImageSupport": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "LT.DigitalOffice.Kernel.RedisSupport": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "LT.DigitalOffice.Models": {
+              "target": "Package",
+              "version": "[1.0.84, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

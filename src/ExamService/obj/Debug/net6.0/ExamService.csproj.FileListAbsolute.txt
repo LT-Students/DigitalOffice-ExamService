@@ -1,0 +1,7 @@
+D:\DigitalOffice\Exam\src\ExamService\obj\Debug\net6.0\ExamService.csproj.AssemblyReference.cache
+D:\DigitalOffice\Exam\src\ExamService\obj\Debug\net6.0\ExamService.GeneratedMSBuildEditorConfig.editorconfig
+D:\DigitalOffice\Exam\src\ExamService\obj\Debug\net6.0\ExamService.AssemblyInfoInputs.cache
+D:\DigitalOffice\Exam\src\ExamService\obj\Debug\net6.0\ExamService.AssemblyInfo.cs
+D:\DigitalOffice\Exam\src\ExamService\obj\Debug\net6.0\ExamService.csproj.CoreCompileInputs.cache
+D:\DigitalOffice\Exam\src\ExamService\obj\Debug\net6.0\LT.DigitalOffice.ExamService.MvcApplicationPartsAssemblyInfo.cs
+D:\DigitalOffice\Exam\src\ExamService\obj\Debug\net6.0\LT.DigitalOffice.ExamService.MvcApplicationPartsAssemblyInfo.cache

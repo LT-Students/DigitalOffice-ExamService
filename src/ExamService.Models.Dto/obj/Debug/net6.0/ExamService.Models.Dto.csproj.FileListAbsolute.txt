@@ -1,0 +1,12 @@
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.deps.json
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.dll
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.pdb
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.csproj.AssemblyReference.cache
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.AssemblyInfoInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.AssemblyInfo.cs
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.csproj.CoreCompileInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.dll
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\refint\LT.DigitalOffice.ExamService.Models.Dto.dll
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.pdb
+D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ref\LT.DigitalOffice.ExamService.Models.Dto.dll

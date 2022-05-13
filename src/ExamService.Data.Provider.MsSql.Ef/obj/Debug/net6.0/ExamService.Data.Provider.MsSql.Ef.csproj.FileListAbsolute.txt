@@ -1,0 +1,15 @@
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\ExamService.Data.Provider.MsSql.Ef.csproj.AssemblyReference.cache
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\ExamService.Data.Provider.MsSql.Ef.GeneratedMSBuildEditorConfig.editorconfig
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\ExamService.Data.Provider.MsSql.Ef.AssemblyInfoInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\ExamService.Data.Provider.MsSql.Ef.AssemblyInfo.cs
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\ExamService.Data.Provider.MsSql.Ef.csproj.CoreCompileInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.deps.json
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.dll
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.pdb
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.dll
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.pdb
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\ExamService.Data.Provider.MsSql.Ef.csproj.CopyComplete
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.dll
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\refint\LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.dll
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.pdb
+D:\DigitalOffice\Exam\src\ExamService.Data.Provider.MsSql.Ef\obj\Debug\net6.0\ref\LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.dll

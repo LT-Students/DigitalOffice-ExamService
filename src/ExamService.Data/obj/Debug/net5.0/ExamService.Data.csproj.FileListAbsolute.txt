@@ -1,0 +1,12 @@
+D:\DigitalOffice\Exam\src\ExamService.Data\bin\Debug\net5.0\ExamService.Data.deps.json
+D:\DigitalOffice\Exam\src\ExamService.Data\bin\Debug\net5.0\ExamService.Data.dll
+D:\DigitalOffice\Exam\src\ExamService.Data\bin\Debug\net5.0\ExamService.Data.pdb
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ExamService.Data.csproj.AssemblyReference.cache
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ExamService.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ExamService.Data.AssemblyInfoInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ExamService.Data.AssemblyInfo.cs
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ExamService.Data.csproj.CoreCompileInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ExamService.Data.dll
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\refint\ExamService.Data.dll
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ExamService.Data.pdb
+D:\DigitalOffice\Exam\src\ExamService.Data\obj\Debug\net5.0\ref\ExamService.Data.dll

@@ -1,0 +1,12 @@
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\bin\Debug\net5.0\ExamService.Models.Db.deps.json
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\bin\Debug\net5.0\ExamService.Models.Db.dll
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\bin\Debug\net5.0\ExamService.Models.Db.pdb
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ExamService.Models.Db.csproj.AssemblyReference.cache
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ExamService.Models.Db.GeneratedMSBuildEditorConfig.editorconfig
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ExamService.Models.Db.AssemblyInfoInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ExamService.Models.Db.AssemblyInfo.cs
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ExamService.Models.Db.csproj.CoreCompileInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ExamService.Models.Db.dll
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\refint\ExamService.Models.Db.dll
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ExamService.Models.Db.pdb
+D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net5.0\ref\ExamService.Models.Db.dll

@@ -1,0 +1,12 @@
+D:\DigitalOffice\Exam\src\ExamService.Business\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Business.deps.json
+D:\DigitalOffice\Exam\src\ExamService.Business\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Business.dll
+D:\DigitalOffice\Exam\src\ExamService.Business\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Business.pdb
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\ExamService.Business.csproj.AssemblyReference.cache
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\ExamService.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\ExamService.Business.AssemblyInfoInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\ExamService.Business.AssemblyInfo.cs
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\ExamService.Business.csproj.CoreCompileInputs.cache
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Business.dll
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\refint\LT.DigitalOffice.ExamService.Business.dll
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Business.pdb
+D:\DigitalOffice\Exam\src\ExamService.Business\obj\Debug\net6.0\ref\LT.DigitalOffice.ExamService.Business.dll
