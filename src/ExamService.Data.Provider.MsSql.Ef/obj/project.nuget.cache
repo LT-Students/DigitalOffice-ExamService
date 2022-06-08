@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tnoJK72krBoKHhWpZjralLSwb0WIoTwdO71bLYnDnjIbBxFL0lKBWQUIv1aEb0zX9nWKbFRHcdJuONFwDUc0TA==",
+  "dgSpecHash": "Loh8Mw7dIwAitsGeIkwvALS78Jejym9jaD9Nw51JUHu2i13u99Iz4/JTAtK73njvM4wbHMd65ko29IOVmzvDgg==",
   "success": true,
   "projectFilePath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj",
   "expectedPackageFiles": [
