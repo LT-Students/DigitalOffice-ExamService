@@ -9,5 +9,9 @@ namespace ExamService.Models.Db
         public Guid QuestionId { get; set; }
         public int Score { get; set; }
         public string Answer { get; set; }
-    }
+        public Guid CreatedBy { get; set; }
+        public DateTime CreatedAtUtc { get; set; }
+        public Guid? ModifiedBy { get; set; }
+        public DateTime? ModifiedAtUtc { get; set; }
+  }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj": {}
+    "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj": {}
   },
   "projects": {
-    "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj": {
+    "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj",
+        "projectUniqueName": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj",
         "projectName": "LT.DigitalOffice.ExamService.Models.Dto",
-        "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj",
-        "packagesPath": "C:\\Users\\mariy\\.nuget\\packages\\",
-        "outputPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Dto\\obj\\",
+        "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj",
+        "packagesPath": "C:\\Users\\Masha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mariy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,23 +42,19 @@
           "dependencies": {
             "LT.DigitalOffice.Kernel": {
               "target": "Package",
-              "version": "[1.1.59, )"
+              "version": "[1.1.62, )"
             },
             "LT.DigitalOffice.Kernel.BrokerSupport": {
               "target": "Package",
-              "version": "[1.0.5, )"
+              "version": "[1.0.6, )"
             },
-            "LT.DigitalOffice.Kernel.EndpointSupport": {
+            "LT.DigitalOffice.Kernel.EFSupport": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             },
             "LT.DigitalOffice.Kernel.ImageSupport": {
               "target": "Package",
               "version": "[1.0.1, )"
-            },
-            "LT.DigitalOffice.Kernel.RedisSupport": {
-              "target": "Package",
-              "version": "[1.0.4, )"
             },
             "LT.DigitalOffice.Models": {
               "target": "Package",

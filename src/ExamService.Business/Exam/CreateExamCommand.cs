@@ -1,7 +1,7 @@
 ﻿using LT.DigitalOffice.ExamService.Business.Exam.Interfaces;
 using LT.DigitalOffice.ExamService.Data.Interfaces;
 using LT.DigitalOffice.ExamService.Mappers.Db.Interfaces;
-using LT.DigitalOffice.ExamService.Models.Dto.Requests;
+using LT.DigitalOffice.ExamService.Models.Dto.Requests.Exam;
 using LT.DigitalOffice.Kernel.Responses;
 using System;
 using System.Threading.Tasks;

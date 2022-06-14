@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{5426E6EB-8F48-4EAB-95CF-7E7D685C6D9E}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		.gitignore = .gitignore
 		Common.Configurations.targets = Common.Configurations.targets
 	EndProjectSection
 EndProject
@@ -21,9 +22,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamService.Models.Db", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamService.Models.Dto", "src\ExamService.Models.Dto\ExamService.Models.Dto.csproj", "{50C8D9E4-6C34-4B0F-A076-AF63D93B3932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamService.Data.Provider.MsSql.Ef", "src\ExamService.Data.Provider.MsSql.Ef\ExamService.Data.Provider.MsSql.Ef.csproj", "{2FEA910B-0177-455B-97CD-825A89E8C106}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamService.Data.Provider.MsSql.Ef", "src\ExamService.Data.Provider.MsSql.Ef\ExamService.Data.Provider.MsSql.Ef.csproj", "{2FEA910B-0177-455B-97CD-825A89E8C106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamService.Mappers", "src\ExamService.Mappers\ExamService.Mappers.csproj", "{9DDB6AD0-F6E8-4AB9-BFC5-0D75A370E159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamService.Mappers", "src\ExamService.Mappers\ExamService.Mappers.csproj", "{9DDB6AD0-F6E8-4AB9-BFC5-0D75A370E159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

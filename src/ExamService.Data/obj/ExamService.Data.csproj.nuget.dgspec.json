@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DigitalOffice\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj": {}
+    "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj": {}
   },
   "projects": {
-    "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj": {
+    "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj",
+        "projectUniqueName": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj",
         "projectName": "LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef",
-        "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj",
-        "packagesPath": "C:\\Users\\mariy\\.nuget\\packages\\",
-        "outputPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\obj\\",
+        "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj",
+        "packagesPath": "C:\\Users\\Masha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mariy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
-                "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj"
+              "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
+                "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj"
               }
             }
           }
@@ -46,43 +46,23 @@
           "dependencies": {
             "LT.DigitalOffice.Kernel": {
               "target": "Package",
-              "version": "[1.1.59, )"
+              "version": "[1.1.62, )"
             },
             "LT.DigitalOffice.Kernel.BrokerSupport": {
               "target": "Package",
-              "version": "[1.0.5, )"
+              "version": "[1.0.6, )"
             },
-            "LT.DigitalOffice.Kernel.EndpointSupport": {
+            "LT.DigitalOffice.Kernel.EFSupport": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             },
             "LT.DigitalOffice.Kernel.ImageSupport": {
               "target": "Package",
               "version": "[1.0.1, )"
             },
-            "LT.DigitalOffice.Kernel.RedisSupport": {
-              "target": "Package",
-              "version": "[1.0.4, )"
-            },
             "LT.DigitalOffice.Models": {
               "target": "Package",
               "version": "[1.0.84, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -104,17 +84,17 @@
         }
       }
     },
-    "D:\\DigitalOffice\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj": {
+    "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj",
         "projectName": "LT.DigitalOffice.ExamService.Data",
-        "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj",
-        "packagesPath": "C:\\Users\\mariy\\.nuget\\packages\\",
-        "outputPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data\\obj\\",
+        "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data\\ExamService.Data.csproj",
+        "packagesPath": "C:\\Users\\Masha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mariy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,11 +108,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj": {
-                "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj"
+              "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj": {
+                "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Data.Provider.MsSql.Ef\\ExamService.Data.Provider.MsSql.Ef.csproj"
               },
-              "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
-                "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj"
+              "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
+                "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj"
+              },
+              "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj": {
+                "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj"
               }
             }
           }
@@ -149,23 +132,19 @@
           "dependencies": {
             "LT.DigitalOffice.Kernel": {
               "target": "Package",
-              "version": "[1.1.59, )"
+              "version": "[1.1.62, )"
             },
             "LT.DigitalOffice.Kernel.BrokerSupport": {
               "target": "Package",
-              "version": "[1.0.5, )"
+              "version": "[1.0.6, )"
             },
-            "LT.DigitalOffice.Kernel.EndpointSupport": {
+            "LT.DigitalOffice.Kernel.EFSupport": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             },
             "LT.DigitalOffice.Kernel.ImageSupport": {
               "target": "Package",
               "version": "[1.0.1, )"
-            },
-            "LT.DigitalOffice.Kernel.RedisSupport": {
-              "target": "Package",
-              "version": "[1.0.4, )"
             },
             "LT.DigitalOffice.Models": {
               "target": "Package",
@@ -191,17 +170,17 @@
         }
       }
     },
-    "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
+    "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj",
+        "projectUniqueName": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj",
         "projectName": "LT.DigitalOffice.ExamService.Models.Db",
-        "projectPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj",
-        "packagesPath": "C:\\Users\\mariy\\.nuget\\packages\\",
-        "outputPath": "D:\\DigitalOffice\\Exam\\src\\ExamService.Models.Db\\obj\\",
+        "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\ExamService.Models.Db.csproj",
+        "packagesPath": "C:\\Users\\Masha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Db\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mariy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Masha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,43 +208,99 @@
           "dependencies": {
             "LT.DigitalOffice.Kernel": {
               "target": "Package",
-              "version": "[1.1.59, )"
+              "version": "[1.1.62, )"
             },
             "LT.DigitalOffice.Kernel.BrokerSupport": {
               "target": "Package",
-              "version": "[1.0.5, )"
+              "version": "[1.0.6, )"
             },
-            "LT.DigitalOffice.Kernel.EndpointSupport": {
+            "LT.DigitalOffice.Kernel.EFSupport": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             },
             "LT.DigitalOffice.Kernel.ImageSupport": {
               "target": "Package",
               "version": "[1.0.1, )"
             },
-            "LT.DigitalOffice.Kernel.RedisSupport": {
+            "LT.DigitalOffice.Models": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.84, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj",
+        "projectName": "LT.DigitalOffice.ExamService.Models.Dto",
+        "projectPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\ExamService.Models.Dto.csproj",
+        "packagesPath": "C:\\Users\\Masha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Masha\\Desktop\\Work\\Services\\Exam\\src\\ExamService.Models.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Masha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LT.DigitalOffice.Kernel": {
+              "target": "Package",
+              "version": "[1.1.62, )"
+            },
+            "LT.DigitalOffice.Kernel.BrokerSupport": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "LT.DigitalOffice.Kernel.EFSupport": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "LT.DigitalOffice.Kernel.ImageSupport": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "LT.DigitalOffice.Models": {
               "target": "Package",
               "version": "[1.0.84, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.0, )"
             }
           },
           "imports": [

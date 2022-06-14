@@ -10,3 +10,15 @@ D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\LT.DigitalOffi
 D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\refint\LT.DigitalOffice.ExamService.Models.Dto.dll
 D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.pdb
 D:\DigitalOffice\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ref\LT.DigitalOffice.ExamService.Models.Dto.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.deps.json
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.pdb
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.csproj.AssemblyReference.cache
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.AssemblyInfoInputs.cache
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.AssemblyInfo.cs
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ExamService.Models.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\refint\LT.DigitalOffice.ExamService.Models.Dto.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Dto.pdb
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Dto\obj\Debug\net6.0\ref\LT.DigitalOffice.ExamService.Models.Dto.dll

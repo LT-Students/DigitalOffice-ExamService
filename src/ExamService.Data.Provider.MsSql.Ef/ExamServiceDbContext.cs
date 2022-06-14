@@ -1,5 +1,5 @@
 ﻿using ExamService.Models.Db;
-using LT.DigitalOffice.Kernel.Database;
+using LT.DigitalOffice.Kernel.EFSupport.Provider;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using System.Threading.Tasks;
@@ -8,7 +8,7 @@ namespace LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef
 {
   public class ExamServiceDbContext : DbContext, IDataProvider
   {
-    public DbSet<DbAnswerOption> AnswersOptions { get; set; }
+    public DbSet<DbAnswer> AnswersOptions { get; set; }
     public DbSet<DbExam> Exams { get; set; }
     public DbSet<DbQuestion> Questions { get; set; }
     public DbSet<DbUserAnswer> UsersAnswers { get; set; }

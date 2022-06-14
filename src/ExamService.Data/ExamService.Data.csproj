@@ -5,6 +5,7 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\ExamService.Data.Provider.MsSql.Ef\ExamService.Data.Provider.MsSql.Ef.csproj" />
 	  <ProjectReference Include="..\ExamService.Models.Db\ExamService.Models.Db.csproj" />
+	  <ProjectReference Include="..\ExamService.Models.Dto\ExamService.Models.Dto.csproj" />
 	</ItemGroup>
 
 </Project>

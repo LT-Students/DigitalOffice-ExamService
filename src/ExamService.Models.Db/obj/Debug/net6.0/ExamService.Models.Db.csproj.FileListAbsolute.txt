@@ -10,3 +10,15 @@ D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\LT.DigitalOffic
 D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\refint\LT.DigitalOffice.ExamService.Models.Db.dll
 D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.pdb
 D:\DigitalOffice\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\ref\LT.DigitalOffice.ExamService.Models.Db.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.deps.json
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\bin\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.pdb
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\ExamService.Models.Db.csproj.AssemblyReference.cache
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\ExamService.Models.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\ExamService.Models.Db.AssemblyInfoInputs.cache
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\ExamService.Models.Db.AssemblyInfo.cs
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\ExamService.Models.Db.csproj.CoreCompileInputs.cache
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\refint\LT.DigitalOffice.ExamService.Models.Db.dll
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\LT.DigitalOffice.ExamService.Models.Db.pdb
+C:\Users\Masha\Desktop\Work\Services\Exam\src\ExamService.Models.Db\obj\Debug\net6.0\ref\LT.DigitalOffice.ExamService.Models.Db.dll
