@@ -59,10 +59,6 @@
               "target": "Package",
               "version": "[1.0.1, )"
             },
-            "LT.DigitalOffice.Kernel.ImageSupport": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
             "LT.DigitalOffice.Models": {
               "target": "Package",
               "version": "[1.0.84, )"
@@ -135,10 +131,6 @@
               "target": "Package",
               "version": "[1.0.1, )"
             },
-            "LT.DigitalOffice.Kernel.ImageSupport": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
             "LT.DigitalOffice.Models": {
               "target": "Package",
               "version": "[1.0.84, )"
@@ -208,10 +200,6 @@
               "version": "[1.0.6, )"
             },
             "LT.DigitalOffice.Kernel.EFSupport": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
-            "LT.DigitalOffice.Kernel.ImageSupport": {
               "target": "Package",
               "version": "[1.0.1, )"
             },
