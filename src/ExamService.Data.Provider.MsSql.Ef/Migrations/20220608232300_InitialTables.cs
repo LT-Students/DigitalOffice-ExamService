@@ -55,6 +55,20 @@ namespace LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.Migrations
           ModifiedAtUtc = table.Column<DateTime>(nullable: true)
         },
         constraints: table => table.PrimaryKey($"PK_{DbQuestion.TableName}", t => t.Id));
+
+      builder.CreateTable(
+        name: DbUserAnswer.TableName,
+        columns: table => new
+        {
+          Id = table.Column<Guid>(nullable: false),
+          UserId = table.Column<Guid>(nullable: false),
+          QuestionId = table.Column<Guid>(nullable: false),
+          AnswerId = table.Column<Guid>(nullable: true),
+          Custom = table.Column<string>(nullable: true),
+          CreatedAtUtc = table.Column<DateTime>(nullable: false),
+          ModifiedAtUtc = table.Column<DateTime>(nullable: true)
+        },
+        constraints: table => table.PrimaryKey($"PK_{DbUserAnswer.TableName}", t => t.Id));
     }
   }
 }

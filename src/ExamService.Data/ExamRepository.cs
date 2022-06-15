@@ -36,7 +36,7 @@ namespace LT.DigitalOffice.ExamService.Data
     {
       return await _provider.Exams
         .Include(e => e.SubExams)
-        .Include(e => e.Questions)
+        .Include(e => e.Questions).ThenInclude(q => q.Answers)
         .FirstOrDefaultAsync(e => e.Id == examId);
     }
 
