@@ -1,5 +1,6 @@
 using HealthChecks.UI.Client;
 using LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef;
+using LT.DigitalOffice.ExamService.Models.Dto.Configurations;
 using LT.DigitalOffice.Kernel.BrokerSupport.Configurations;
 using LT.DigitalOffice.Kernel.BrokerSupport.Extensions;
 using LT.DigitalOffice.Kernel.BrokerSupport.Helpers;
@@ -8,10 +9,12 @@ using LT.DigitalOffice.Kernel.Configurations;
 using LT.DigitalOffice.Kernel.EFSupport.Extensions;
 using LT.DigitalOffice.Kernel.EFSupport.Helpers;
 using LT.DigitalOffice.Kernel.Extensions;
+using LT.DigitalOffice.Kernel.Helpers;
 using LT.DigitalOffice.Kernel.Middlewares.ApiInformation;
 using MassTransit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,7 +30,7 @@ namespace ExamService
   {
     public const string CorsPolicyName = "LtDoCorsPolicy";
 
-    private readonly BaseRabbitMqConfig _rabbitMqConfig;
+    private readonly RabbitMqConfig _rabbitMqConfig;
     private readonly BaseServiceInfoConfig _serviceInfoConfig;
 
     private IConfiguration Configuration { get; }
@@ -64,7 +67,7 @@ namespace ExamService
 
       _rabbitMqConfig = Configuration
         .GetSection(BaseRabbitMqConfig.SectionName)
-        .Get<BaseRabbitMqConfig>();
+        .Get<RabbitMqConfig>();
 
       _serviceInfoConfig = Configuration
         .GetSection(BaseServiceInfoConfig.SectionName)
@@ -140,6 +143,7 @@ namespace ExamService
 
       app.UseCors(CorsPolicyName);
 
+      ResponseCreatorStatic.ResponseCreatorConfigure(app.ApplicationServices.GetService<IHttpContextAccessor>());
 
       app.UseEndpoints(endpoints =>
       {

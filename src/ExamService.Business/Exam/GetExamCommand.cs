@@ -1,11 +1,14 @@
-﻿using ExamService.Models.Db;
+﻿using ExamService.Broker.Requests.Interfaces;
+using ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Business.Exam.Interfaces;
 using LT.DigitalOffice.ExamService.Data.Interfaces;
 using LT.DigitalOffice.ExamService.Mappers.Responses.Interfaces;
 using LT.DigitalOffice.ExamService.Models.Dto.Response.Exam;
-using LT.DigitalOffice.Kernel.Helpers.Interfaces;
+using LT.DigitalOffice.Kernel.Helpers;
 using LT.DigitalOffice.Kernel.Responses;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -15,25 +18,40 @@ namespace LT.DigitalOffice.ExamService.Business.Exam
   {
     private readonly IExamRepository _repository;
     private readonly IExamResponseMapper _mapper;
-    private readonly IResponseCreator _responseCreator;
+    private readonly IUserService _userService;
 
     public GetExamCommand(
       IExamRepository repository,
       IExamResponseMapper mapper,
-      IResponseCreator responseCreator)
+      IUserService userService)
     {
       _repository = repository;
       _mapper = mapper;
-      _responseCreator = responseCreator;
+      _userService = userService;
     }
 
     public async Task<OperationResultResponse<ExamResponse>> ExecuteAsync(Guid examId)
     {
       DbExam dbExam = await _repository.GetAsync(examId);
 
-      return dbExam is null
-        ? _responseCreator.CreateFailureResponse<ExamResponse>(HttpStatusCode.NotFound)
-        : new OperationResultResponse<ExamResponse>(_mapper.Map(dbExam));
+      if (dbExam is null)
+      {
+        return ResponseCreatorStatic.CreateResponse<ExamResponse>(HttpStatusCode.NotFound);
+      }
+
+      OperationResultResponse<ExamResponse> response = new();
+      List<Guid> creatorsIds = new() { dbExam.CreatedBy };
+
+      if (dbExam.SubExams is not null && dbExam.SubExams.Any())
+      {
+        creatorsIds.AddRange(dbExam.SubExams.Select(se => se.CreatedBy));
+      }
+
+      response.Body = _mapper.Map(
+      dbExam,
+      (await _userService.GetUsersDatasAsync(creatorsIds, response.Errors)));
+
+      return response;
     }
   }
 }

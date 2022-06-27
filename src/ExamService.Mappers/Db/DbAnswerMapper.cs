@@ -24,7 +24,7 @@ namespace LT.DigitalOffice.ExamService.Mappers.Db
         {
           Id = Guid.NewGuid(),
           QuestionId = questionId,
-          Option = request.Option,
+          Option = request.Answer,
           IsCorrect = request.IsCorrect,
           CreatedBy = _httpContextAccessor.HttpContext.GetUserId(),
           CreatedAtUtc = DateTime.UtcNow

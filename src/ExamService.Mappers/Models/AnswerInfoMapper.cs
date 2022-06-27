@@ -14,7 +14,21 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models
         {
           Id = dbAnswer.Id,
           QuestionId = dbAnswer.QuestionId,
-          Option = dbAnswer.Option
+          Answer = dbAnswer.Option,
+          IsCorrect = null
+        };
+    }
+
+    public AnswerInfo FuillInfoMap(DbAnswer dbAnswer)
+    {
+      return dbAnswer is null
+        ? null
+        : new AnswerInfo
+        {
+          Id = dbAnswer.Id,
+          QuestionId = dbAnswer.QuestionId,
+          Answer = dbAnswer.Option,
+          IsCorrect = dbAnswer.IsCorrect
         };
     }
   }

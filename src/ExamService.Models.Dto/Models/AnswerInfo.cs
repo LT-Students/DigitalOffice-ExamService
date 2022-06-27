@@ -6,6 +6,7 @@ namespace LT.DigitalOffice.ExamService.Models.Dto.Models
   {
     public Guid Id { get; set; }
     public Guid QuestionId { get; set; }
-    public string Option { get; set; }
+    public string Answer { get; set; }
+    public bool? IsCorrect { get; set; }
   }
 }

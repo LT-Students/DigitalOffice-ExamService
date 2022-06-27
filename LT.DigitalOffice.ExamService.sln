@@ -28,6 +28,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamService.Models.Db", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamService.Models.Dto", "src\ExamService.Models.Dto\ExamService.Models.Dto.csproj", "{AC23E182-DCE6-4A91-9EC2-3CCDDEEB0E0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamService.Broker", "src\ExamService.Broker\ExamService.Broker.csproj", "{6D1DE380-D950-4175-AC45-86BB87EAA9C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{AC23E182-DCE6-4A91-9EC2-3CCDDEEB0E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC23E182-DCE6-4A91-9EC2-3CCDDEEB0E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC23E182-DCE6-4A91-9EC2-3CCDDEEB0E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1DE380-D950-4175-AC45-86BB87EAA9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1DE380-D950-4175-AC45-86BB87EAA9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1DE380-D950-4175-AC45-86BB87EAA9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1DE380-D950-4175-AC45-86BB87EAA9C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{C7429C89-982A-4B9A-9FE8-1154FE46BAE9} = {358AE005-065E-43B4-91EF-C6A5A2A2BC6E}
 		{C93B572E-F2C5-4EB9-8682-A40504CBAD99} = {358AE005-065E-43B4-91EF-C6A5A2A2BC6E}
 		{AC23E182-DCE6-4A91-9EC2-3CCDDEEB0E0C} = {358AE005-065E-43B4-91EF-C6A5A2A2BC6E}
+		{6D1DE380-D950-4175-AC45-86BB87EAA9C3} = {358AE005-065E-43B4-91EF-C6A5A2A2BC6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C44A181D-247C-484B-BD3D-1A7EA1CE461B}

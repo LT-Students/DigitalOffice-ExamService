@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace LT.DigitalOffice.ExamService.Models.Dto.Models
 {
@@ -9,5 +8,6 @@ namespace LT.DigitalOffice.ExamService.Models.Dto.Models
     public Guid? ParentId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
+    public UserInfo CreatorInfo { get; set; }
   }
 }

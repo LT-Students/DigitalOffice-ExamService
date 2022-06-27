@@ -7,6 +7,6 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models.Interfaces
   [AutoInject]
   public interface IExamInfoMapper
   {
-    ExamInfo Map(DbExam dbExam);
+    ExamInfo Map(DbExam dbExam, UserInfo creator);
   }
 }

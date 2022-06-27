@@ -8,5 +8,7 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models.Interfaces
   public interface IAnswerInfoMapper
   {
     AnswerInfo Map(DbAnswer dbAnswer);
+
+    AnswerInfo FuillInfoMap(DbAnswer dbAnswer);
   }
 }
