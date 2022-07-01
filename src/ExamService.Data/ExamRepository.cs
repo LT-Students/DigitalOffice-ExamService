@@ -1,6 +1,6 @@
-﻿using ExamService.Models.Db;
-using LT.DigitalOffice.ExamService.Data.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Data.Interfaces;
 using LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef;
+using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Requests.Exam.Filters;
 using Microsoft.EntityFrameworkCore;
 using System;

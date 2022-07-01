@@ -1,4 +1,4 @@
-﻿using ExamService.Broker.Requests.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Broker.Requests.Interfaces;
 using LT.DigitalOffice.ExamService.Models.Dto.Models;
 using LT.DigitalOffice.Kernel.BrokerSupport.Helpers;
 using LT.DigitalOffice.Models.Broker.Requests.User;

@@ -1,4 +1,4 @@
-﻿using ExamService.Models.Db;
+﻿using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.Kernel.Attributes;
 using System.Collections.Generic;
 using System.Threading.Tasks;

@@ -1,4 +1,4 @@
-﻿using ExamService.Models.Db;
+﻿using LT.DigitalOffice.ExamService.Models.Db;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;

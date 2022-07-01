@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 
-namespace ExamService.Models.Db
+namespace LT.DigitalOffice.ExamService.Models.Db
 {
   public class DbUserAnswer
   {
