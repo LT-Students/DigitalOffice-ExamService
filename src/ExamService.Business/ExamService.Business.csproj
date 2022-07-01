@@ -6,6 +6,7 @@
 	  <ProjectReference Include="..\ExamService.Mappers\ExamService.Mappers.csproj" />
 	  <ProjectReference Include="..\ExamService.Models.Db\ExamService.Models.Db.csproj" />
 	  <ProjectReference Include="..\ExamService.Models.Dto\ExamService.Models.Dto.csproj" />
+	  <ProjectReference Include="..\ExamService.Validation\ExamService.Validation.csproj" />
 	</ItemGroup>
 
 </Project>

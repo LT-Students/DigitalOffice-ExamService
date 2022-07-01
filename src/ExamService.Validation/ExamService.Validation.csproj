@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <AssemblyName>LT.DigitalOffice.ExamService.Validation</AssemblyName>
+        <RootNamespace>LT.DigitalOffice.ExamService.Validation</RootNamespace>
+        <Company>LT.DigitalOffice.ExamService.Validation</Company>
+        <Product>LT.DigitalOffice.ExamService.Validation</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LT.DigitalOffice.Kernel" Version="1.1.63" />
+      <PackageReference Include="LT.DigitalOffice.Kernel.EFSupport" Version="1.0.1" />
+      <PackageReference Include="LT.DigitalOffice.Models" Version="1.0.84" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ExamService.Models.Dto\ExamService.Models.Dto.csproj" />
+    </ItemGroup>
+
+</Project>
