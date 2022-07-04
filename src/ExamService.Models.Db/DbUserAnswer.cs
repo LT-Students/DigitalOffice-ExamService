@@ -15,7 +15,7 @@ namespace LT.DigitalOffice.ExamService.Models.Db
     public string Custom { get; set; }
     public DateTime CreatedAtUtc { get; set; }
     public DateTime? ModifiedAtUtc { get; set; }
-    [IgnoreParse]
+
     public DbQuestion Question { get; set; }
 
     public DbUserAnswer()
