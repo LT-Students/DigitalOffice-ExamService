@@ -6,7 +6,7 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models
 {
   public class ExamInfoMapper : IExamInfoMapper
   {
-    public ExamInfo Map(DbExam dbExam, UserInfo creator)
+    public ExamInfo Map(DbExam dbExam, UserInfo creator = null)
     {
       return dbExam is null
         ? null
@@ -16,6 +16,7 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models
           ParentId = dbExam.ParentId,
           Name = dbExam.Name,
           Description = dbExam.Description,
+          DeadLineUtc = dbExam.DeadLineUtc,
           CreatorInfo = creator,
         };
     }

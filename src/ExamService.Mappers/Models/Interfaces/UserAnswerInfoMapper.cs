@@ -5,8 +5,8 @@ using LT.DigitalOffice.Kernel.Attributes;
 namespace LT.DigitalOffice.ExamService.Mappers.Models.Interfaces
 {
   [AutoInject]
-  public interface IExamInfoMapper
+  public interface IUserAnswerInfoMapper
   {
-    ExamInfo Map(DbExam dbExam, UserInfo creator = null);
+    UserAnswerInfo Map(DbUserAnswer dbUserAnswer);
   }
 }

@@ -14,6 +14,13 @@ namespace LT.DigitalOffice.ExamService.Models.Db
     public string Custom { get; set; }
     public DateTime CreatedAtUtc { get; set; }
     public DateTime? ModifiedAtUtc { get; set; }
+
+    public DbQuestion Question { get; set; }
+
+    public DbUserAnswer()
+    {
+      Question = new DbQuestion();
+    }
   }
 
   public class DbUserAnswerConfiguration : IEntityTypeConfiguration<DbUserAnswer>
@@ -25,6 +32,10 @@ namespace LT.DigitalOffice.ExamService.Models.Db
 
       builder
         .HasKey(q => q.Id);
+
+      builder
+        .HasOne(ua => ua.Question)
+        .WithMany(q => q.UsersAnswers);
     }
   }
 }
