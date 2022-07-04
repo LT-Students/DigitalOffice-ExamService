@@ -28,7 +28,8 @@ namespace LT.DigitalOffice.ExamService.Mappers.Db
           QuestionId = request.QuestionId,
           AnswerId = request.AnswerId,
           Custom = request.Custom,
-          CreatedAtUtc = DateTime.UtcNow
+          CreatedAtUtc = DateTime.UtcNow,
+          Question = null
         };
     }
   }

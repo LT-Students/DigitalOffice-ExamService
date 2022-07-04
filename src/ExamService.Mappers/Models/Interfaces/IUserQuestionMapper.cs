@@ -1,12 +1,10 @@
 ﻿using ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Models;
-using LT.DigitalOffice.Kernel.Attributes;
 
 namespace LT.DigitalOffice.ExamService.Mappers.Models.Interfaces
 {
-  [AutoInject]
-  public interface IExamInfoMapper
+  public interface IUserQuestionMapper
   {
-    ExamInfo Map(DbExam dbExam, UserInfo creator = null);
+    UserQuestionInfo Map(DbQuestion dbQuestion, bool showRightAnswers = false);
   }
 }

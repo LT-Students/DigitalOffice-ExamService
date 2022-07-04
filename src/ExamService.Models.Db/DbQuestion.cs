@@ -19,10 +19,12 @@ namespace ExamService.Models.Db
 
     public DbExam Exam { get; set; }
     public ICollection<DbAnswer> Answers { get; set; }
+    public ICollection<DbUserAnswer> UsersAnswers { get; set; }
 
     public DbQuestion()
     {
       Answers = new HashSet<DbAnswer>();
+      UsersAnswers = new HashSet<DbUserAnswer>();
     }
   }
 

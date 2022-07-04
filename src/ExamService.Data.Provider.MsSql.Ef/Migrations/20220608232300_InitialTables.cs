@@ -34,6 +34,7 @@ namespace LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef.Migrations
           ParentId = table.Column<Guid>(nullable: true),
           Name = table.Column<string>(nullable: false),
           Description = table.Column<string>(nullable: true),
+          DeadLineUtc = table.Column<DateTime>(nullable: true),
           CreatedBy = table.Column<Guid>(nullable: false),
           CreatedAtUtc = table.Column<DateTime>(nullable: false),
           ModifiedBy = table.Column<Guid>(nullable: true),
