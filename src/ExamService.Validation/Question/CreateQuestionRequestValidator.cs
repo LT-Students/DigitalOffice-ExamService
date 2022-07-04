@@ -10,8 +10,6 @@ namespace LT.DigitalOffice.ExamService.Validation.Question
     public CreateQuestionRequestValidator(ICreateAnswerRequestValidator answerValidator)
     {
       RuleFor(request => request.Subject)
-        .Cascade(CascadeMode.Stop)
-        .NotEmpty().WithMessage("Subject mustn't be empty")
         .MinimumLength(3).WithMessage("Minimum length must be greater than 3")
         .MaximumLength(500).WithMessage("Maximum length mustn't be greater than 500");
 

@@ -9,7 +9,6 @@ namespace LT.DigitalOffice.ExamService.Validation.Answer
     public CreateAnswerRequestValidator()
     {
       RuleFor(request => request.Answer)
-        .Cascade(CascadeMode.Stop)
         .MinimumLength(0).WithMessage("Minimum length is 0")
         .MaximumLength(500).WithMessage("Maximum length mustn't be greater than 500");
     }

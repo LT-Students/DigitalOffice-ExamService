@@ -22,7 +22,8 @@ namespace LT.DigitalOffice.ExamService.Business.Question
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly IResponseCreator _responseCreator;
 
-    public CreateQuestionCommand(IDbQuestionMapper mapper,
+    public CreateQuestionCommand(
+      IDbQuestionMapper mapper,
       IQuestionRepository repository,
       ICreateQuestionRequestValidator validator,
       IResponseCreator responseCreator,
