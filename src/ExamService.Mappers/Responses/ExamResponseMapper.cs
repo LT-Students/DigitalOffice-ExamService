@@ -1,6 +1,6 @@
-﻿using ExamService.Models.Db;
-using LT.DigitalOffice.ExamService.Mappers.Models.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Mappers.Models.Interfaces;
 using LT.DigitalOffice.ExamService.Mappers.Responses.Interfaces;
+using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Models;
 using LT.DigitalOffice.ExamService.Models.Dto.Response.Exam;
 using System.Collections.Generic;

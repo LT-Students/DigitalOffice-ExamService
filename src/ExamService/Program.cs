@@ -4,7 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using System;
 
-namespace ExamService
+namespace LT.DigitalOffice.ExamService
 {
   public class Program
   {

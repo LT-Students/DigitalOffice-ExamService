@@ -24,7 +24,7 @@ using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace ExamService
+namespace LT.DigitalOffice.ExamService
 {
   public class Startup : BaseApiInfo
   {

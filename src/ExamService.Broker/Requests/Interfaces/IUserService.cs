@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ExamService.Broker.Requests.Interfaces
+namespace LT.DigitalOffice.ExamService.Broker.Requests.Interfaces
 {
   [AutoInject]
   public interface IUserService

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace ExamService.Controllers
+namespace LT.DigitalOffice.ExamService.Controllers
 {
   [ApiController]
   [Route("[controller]")]
