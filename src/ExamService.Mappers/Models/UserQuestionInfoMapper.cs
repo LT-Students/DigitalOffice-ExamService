@@ -1,5 +1,5 @@
-﻿using ExamService.Models.Db;
-using LT.DigitalOffice.ExamService.Mappers.Models.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Mappers.Models.Interfaces;
+using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Models;
 using System.Linq;
 

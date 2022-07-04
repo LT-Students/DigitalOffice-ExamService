@@ -1,4 +1,4 @@
-﻿using ExamService.Models.Db;
+﻿using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Models;
 
 namespace LT.DigitalOffice.ExamService.Mappers.Models.Interfaces
