@@ -1,4 +1,4 @@
-﻿using ExamService.Models.Db;
+﻿using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Requests.Question;
 using LT.DigitalOffice.Kernel.Attributes;
 using System;

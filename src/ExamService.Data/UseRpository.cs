@@ -1,8 +1,6 @@
-﻿using ExamService.Models.Db;
-using LT.DigitalOffice.ExamService.Data.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Data.Interfaces;
 using LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef;
-using Microsoft.EntityFrameworkCore;
-using System;
+using LT.DigitalOffice.ExamService.Models.Db;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

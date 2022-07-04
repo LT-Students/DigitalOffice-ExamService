@@ -1,8 +1,8 @@
-﻿using ExamService.Broker.Requests.Interfaces;
-using ExamService.Models.Db;
+﻿using LT.DigitalOffice.ExamService.Broker.Requests.Interfaces;
 using LT.DigitalOffice.ExamService.Business.Exam.Interfaces;
 using LT.DigitalOffice.ExamService.Data.Interfaces;
 using LT.DigitalOffice.ExamService.Mappers.Models.Interfaces;
+using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Models;
 using LT.DigitalOffice.ExamService.Models.Dto.Requests.Exam.Filters;
 using LT.DigitalOffice.Kernel.Responses;

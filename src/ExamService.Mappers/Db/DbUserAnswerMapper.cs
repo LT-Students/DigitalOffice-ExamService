@@ -1,5 +1,5 @@
-﻿using ExamService.Models.Db;
-using LT.DigitalOffice.ExamService.Mappers.Db.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Mappers.Db.Interfaces;
+using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Requests.User;
 using LT.DigitalOffice.Kernel.Extensions;
 using Microsoft.AspNetCore.Http;
