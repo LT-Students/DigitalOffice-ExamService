@@ -11,5 +11,6 @@ namespace LT.DigitalOffice.ExamService.Data.Interfaces
   {
     Task<bool> CreateAsync(List<DbUserAnswer> request);
     Task<DbExam> GetAsync(Guid examId, Guid userId);
+    Task<List<DbExam>> FindCourseExamsAsync(Guid courseId, Guid userId);
   }
 }

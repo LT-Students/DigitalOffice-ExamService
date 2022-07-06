@@ -9,7 +9,7 @@ namespace LT.DigitalOffice.ExamService.Models.Db
   {
     public const string TableName = "Exams";
     public Guid Id { get; set; }
-    public Guid? ParentId { get; set; }
+    public Guid CourseId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
     public DateTime? DeadLineUtc { get; set; }
@@ -18,14 +18,12 @@ namespace LT.DigitalOffice.ExamService.Models.Db
     public Guid? ModifiedBy { get; set; }
     public DateTime? ModifiedAtUtc { get; set; }
 
-    public DbExam Parent { get; set; }
-    public ICollection<DbExam> SubExams { get; set; }
+    public DbCourse Course { get; set; }
     public ICollection<DbQuestion> Questions { get; set; }
 
     public DbExam()
     {
-      SubExams = new HashSet<DbExam>();
-      Questions = new HashSet<DbQuestion>();
+      Course = new DbCourse();
     }
   }
 
@@ -42,11 +40,6 @@ namespace LT.DigitalOffice.ExamService.Models.Db
       builder
         .Property(e => e.Name)
         .IsRequired();
-
-      builder.HasOne(e => e.Parent)
-        .WithMany(e => e.SubExams)
-        .HasForeignKey(e => e.ParentId)
-        .IsRequired(false);
     }
   }
 }

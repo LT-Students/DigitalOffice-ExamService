@@ -30,12 +30,14 @@ namespace LT.DigitalOffice.ExamService.Mappers.Db
         : new DbExam()
         {
           Id = examId,
+          CourseId = request.CourseId,
           Name = request.Name,
           Description = request.Description,
           DeadLineUtc = request.DeadLineUtc,
           CreatedBy = _httpContextAccessor.HttpContext.GetUserId(),
           CreatedAtUtc = DateTime.UtcNow,
-          Questions = request.Questions.Select(q => _questionMapper.Map(q, examId)).ToList()
+          Questions = request.Questions.Select(q => _questionMapper.Map(q, examId)).ToList(),
+          Course = null
         };
     }
   }

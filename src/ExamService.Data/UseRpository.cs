@@ -38,5 +38,13 @@ namespace LT.DigitalOffice.ExamService.Data
         .ThenInclude(q => q.UsersAnswers.Where(ua => ua.UserId == userId))
         .FirstOrDefaultAsync(e => e.Id == examId);
     }
+
+    public async Task<List<DbExam>> FindCourseExamsAsync(Guid courseId, Guid userId)
+    {
+      return await _provider.Exams
+        .Include(e => e.Questions)
+        .ThenInclude(q => q.UsersAnswers.Where(ua => ua.UserId == userId))
+        .Where(e => e.CourseId == courseId).ToListAsync();
+    }
   }
 }

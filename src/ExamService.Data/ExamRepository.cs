@@ -35,7 +35,6 @@ namespace LT.DigitalOffice.ExamService.Data
     public async Task<DbExam> GetAsync(Guid examId)
     {
       return await _provider.Exams
-        .Include(e => e.SubExams)
         .Include(e => e.Questions).ThenInclude(q => q.Answers)
         .FirstOrDefaultAsync(e => e.Id == examId);
     }

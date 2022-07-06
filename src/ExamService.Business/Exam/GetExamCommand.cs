@@ -42,11 +42,6 @@ namespace LT.DigitalOffice.ExamService.Business.Exam
       OperationResultResponse<ExamResponse> response = new();
       List<Guid> creatorsIds = new() { dbExam.CreatedBy };
 
-      if (dbExam.SubExams is not null && dbExam.SubExams.Any())
-      {
-        creatorsIds.AddRange(dbExam.SubExams.Select(se => se.CreatedBy));
-      }
-
       response.Body = _mapper.Map(
       dbExam,
       (await _userService.GetUsersDatasAsync(creatorsIds, response.Errors)));

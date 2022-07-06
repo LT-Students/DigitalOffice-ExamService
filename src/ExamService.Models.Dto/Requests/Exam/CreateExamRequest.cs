@@ -7,7 +7,7 @@ namespace LT.DigitalOffice.ExamService.Models.Dto.Requests.Exam
 {
   public record CreateExamRequest
   {
-    public Guid? ParentId { get; set; }
+    public Guid CourseId { get; set; }
     [Required]
     public string Name { get; set; }
     public string Description { get; set; }
