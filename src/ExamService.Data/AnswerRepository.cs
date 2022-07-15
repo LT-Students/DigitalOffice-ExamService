@@ -40,14 +40,14 @@ namespace LT.DigitalOffice.ExamService.Data
       return true;
     }
 
-    public Task<bool> IsCreator(Guid answerId)
+    public async Task<bool> IsCreatorAsync(Guid answerId)
     {
       Guid userId = _httpContextAccessor.HttpContext.GetUserId();
       
-      DbAnswer dbAnswer = _provider.AnswersOptions.FirstOrDefaultAsync(
-        answer => answer.Id == answerId && answer.CreatedBy == userId).Result;
+      DbAnswer dbAnswer = await _provider.AnswersOptions.FirstOrDefaultAsync(
+        answer => answer.Id == answerId && answer.CreatedBy == userId);
 
-      return  Task.FromResult(dbAnswer is not null);
+      return dbAnswer is not null;
     }
   }
 }

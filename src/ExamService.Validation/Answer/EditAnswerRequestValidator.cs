@@ -31,7 +31,7 @@ namespace LT.DigitalOffice.ExamService.Validation.Answer
       AddFailureForPropertyIf(nameof(EditAnswerRequest.Option),
         operationType => operationType == OperationType.Replace,
         new() {
-          { request => !string.IsNullOrEmpty(request.value?.ToString()), "Option can't be be empty." },
+          { request => !string.IsNullOrWhiteSpace(request.value?.ToString()), "Option can't be be empty." },
           { request => request.value?.ToString().Length < 500, "Option's name is too long" }
         },
         CascadeMode.Stop);

@@ -35,7 +35,7 @@ namespace LT.DigitalOffice.ExamService.Business.Answer
 
     public async Task<OperationResultResponse<bool>> ExecuteAsync(Guid answerId, JsonPatchDocument<EditAnswerRequest> request)
     {
-      bool isCreator = await _answerRepository.IsCreator(answerId);
+      bool isCreator = await _answerRepository.IsCreatorAsync(answerId);
 
       if (!isCreator)
       {
@@ -56,7 +56,7 @@ namespace LT.DigitalOffice.ExamService.Business.Answer
       
       if (!response.Body)
       {
-        _responseCreator.CreateFailureResponse<bool>(HttpStatusCode.BadRequest);
+        return _responseCreator.CreateFailureResponse<bool>(HttpStatusCode.BadRequest);
       }
 
       return response;
