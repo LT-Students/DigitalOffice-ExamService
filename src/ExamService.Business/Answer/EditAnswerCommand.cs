@@ -35,9 +35,7 @@ namespace LT.DigitalOffice.ExamService.Business.Answer
 
     public async Task<OperationResultResponse<bool>> ExecuteAsync(Guid answerId, JsonPatchDocument<EditAnswerRequest> request)
     {
-      bool isCreator = await _answerRepository.IsCreatorAsync(answerId);
-
-      if (!isCreator)
+      if (!await _answerRepository.IsCreatorAsync(answerId))
       {
         return _responseCreator.CreateFailureResponse<bool>(HttpStatusCode.Forbidden);
       }
@@ -54,12 +52,8 @@ namespace LT.DigitalOffice.ExamService.Business.Answer
 
       response.Body = await _answerRepository.EditAsync(answerId, _mapper.Map(request));
       
-      if (!response.Body)
-      {
-        return _responseCreator.CreateFailureResponse<bool>(HttpStatusCode.BadRequest);
-      }
-
-      return response;
+      return !response.Body ? _responseCreator.CreateFailureResponse<bool>(HttpStatusCode.BadRequest) 
+        : response;
     }
   }
 }
