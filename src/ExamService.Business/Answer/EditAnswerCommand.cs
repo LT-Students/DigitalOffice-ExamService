@@ -35,6 +35,13 @@ namespace LT.DigitalOffice.ExamService.Business.Answer
 
     public async Task<OperationResultResponse<bool>> ExecuteAsync(Guid answerId, JsonPatchDocument<EditAnswerRequest> request)
     {
+      bool isCreator = await _answerRepository.IsCreator(answerId);
+
+      if (!isCreator)
+      {
+        return _responseCreator.CreateFailureResponse<bool>(HttpStatusCode.Forbidden);
+      }
+
       ValidationResult validationResult = await _answerValidator.ValidateAsync(request);
 
       if (!validationResult.IsValid)

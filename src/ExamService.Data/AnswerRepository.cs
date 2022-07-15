@@ -39,5 +39,15 @@ namespace LT.DigitalOffice.ExamService.Data
 
       return true;
     }
+
+    public Task<bool> IsCreator(Guid answerId)
+    {
+      Guid userId = _httpContextAccessor.HttpContext.GetUserId();
+      
+      DbAnswer dbAnswer = _provider.AnswersOptions.FirstOrDefaultAsync(
+        answer => answer.Id == answerId && answer.CreatedBy == userId).Result;
+
+      return  Task.FromResult(dbAnswer is not null);
+    }
   }
 }

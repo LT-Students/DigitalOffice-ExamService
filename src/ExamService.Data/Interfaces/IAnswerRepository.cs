@@ -10,5 +10,6 @@ namespace LT.DigitalOffice.ExamService.Data.Interfaces
   public interface IAnswerRepository
   {
     Task<bool> EditAsync(Guid answerId, JsonPatchDocument<DbAnswer> request);
+    Task<bool> IsCreator(Guid answerId);
   }
 }
