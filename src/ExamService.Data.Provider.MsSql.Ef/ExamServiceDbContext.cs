@@ -9,9 +9,11 @@ namespace LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef
   public class ExamServiceDbContext : DbContext, IDataProvider
   {
     public DbSet<DbAnswer> AnswersOptions { get; set; }
+    public DbSet<DbCourse> Courses { get; set; }
     public DbSet<DbExam> Exams { get; set; }
     public DbSet<DbQuestion> Questions { get; set; }
     public DbSet<DbUserAnswer> UsersAnswers { get; set; }
+    public DbSet<DbUserCourse> UsersCourses { get; set; }
 
     public ExamServiceDbContext(DbContextOptions<ExamServiceDbContext> options)
       : base(options)

@@ -1,4 +1,5 @@
 ﻿using LT.DigitalOffice.ExamService.Business.User.Interfaces;
+using LT.DigitalOffice.ExamService.Models.Dto.Models;
 using LT.DigitalOffice.ExamService.Models.Dto.Requests.User;
 using LT.DigitalOffice.ExamService.Models.Dto.Response.User;
 using LT.DigitalOffice.Kernel.Responses;
@@ -22,11 +23,28 @@ namespace LT.DigitalOffice.ExamService.Controllers
     }
 
     [HttpGet("get")]
-    public async Task<OperationResultResponse<UserExamResponse>> FindAsync(
+    public async Task<OperationResultResponse<UserExamResponse>> GetAsync(
       [FromServices] IGetUserExamCommand command,
       [FromQuery] Guid examId)
     {
       return await command.ExecuteAsync(examId);
+    }
+
+    [HttpGet("find")]
+    public async Task<FindResultResponse<UserExamInfo>> FindAsync(
+      [FromServices] IFindUserCourseExamsCommand command,
+      [FromQuery] Guid courseId)
+    {
+      return await command.ExecuteAsync(courseId);
+    }
+
+    [HttpPost("UserCourse")]
+    public async Task<OperationResultResponse<bool>> UserCourseAsync(
+      [FromServices] ICreateUserCourseCommand command,
+      [FromQuery] Guid courseId,
+      [FromQuery] Guid userId)
+    {
+      return await command.ExecuteAsync(courseId, userId);
     }
   }
 }

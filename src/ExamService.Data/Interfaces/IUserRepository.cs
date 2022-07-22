@@ -10,6 +10,8 @@ namespace LT.DigitalOffice.ExamService.Data.Interfaces
   public interface IUserRepository
   {
     Task<bool> CreateAsync(List<DbUserAnswer> request);
+    Task<bool> CreateCourseAsync(DbUserCourse request);
     Task<DbExam> GetAsync(Guid examId, Guid userId);
+    Task<List<DbExam>> FindCourseExamsAsync(Guid courseId, Guid userId);
   }
 }

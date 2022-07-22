@@ -28,7 +28,6 @@ namespace LT.DigitalOffice.ExamService.Mappers.Responses
         : new ExamResponse()
         {
           Exam = _examInfoMapper.Map(dbExam, creators?.FirstOrDefault(c => c.Id == dbExam.CreatedBy)),
-          SubExams = dbExam.SubExams.Select(se => _examInfoMapper.Map(se, creators?.FirstOrDefault(c => c.Id == se.CreatedBy))).ToList(),
           Questions = dbExam.Questions?.Select(_quetionInfoMapper.Map).ToList()
         };
     }

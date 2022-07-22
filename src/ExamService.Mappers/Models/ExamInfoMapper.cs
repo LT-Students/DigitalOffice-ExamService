@@ -13,7 +13,7 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models
         : new ExamInfo()
         {
           Id = dbExam.Id,
-          ParentId = dbExam.ParentId,
+          ParentId = dbExam.CourseId,
           Name = dbExam.Name,
           Description = dbExam.Description,
           DeadLineUtc = dbExam.DeadLineUtc,
