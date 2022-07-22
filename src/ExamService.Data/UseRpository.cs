@@ -31,17 +31,30 @@ namespace LT.DigitalOffice.ExamService.Data
       return true;
     }
 
-    public async Task<DbExam> GetAsync(Guid examId, Guid userId)
+    public async Task<bool> CreateCourseAsync(DbUserCourse request)
     {
-      return await _provider.Exams
+      if (request is null)
+      {
+        return false;
+      }
+
+      _provider.UsersCourses.Add(request);
+      await _provider.SaveAsync();
+
+      return true;
+    }
+
+    public Task<DbExam> GetAsync(Guid examId, Guid userId)
+    {
+      return _provider.Exams
         .Include(e => e.Questions)
         .ThenInclude(q => q.UsersAnswers.Where(ua => ua.UserId == userId))
         .FirstOrDefaultAsync(e => e.Id == examId);
     }
 
-    public async Task<List<DbExam>> FindCourseExamsAsync(Guid courseId, Guid userId)
+    public Task<List<DbExam>> FindCourseExamsAsync(Guid courseId, Guid userId)
     {
-      return await _provider.Exams
+      return _provider.Exams
         .Include(e => e.Questions)
         .ThenInclude(q => q.UsersAnswers.Where(ua => ua.UserId == userId))
         .Where(e => e.CourseId == courseId).ToListAsync();

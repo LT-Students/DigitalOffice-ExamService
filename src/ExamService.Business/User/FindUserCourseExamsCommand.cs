@@ -1,4 +1,5 @@
-﻿using LT.DigitalOffice.ExamService.Data.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Business.User.Interfaces;
+using LT.DigitalOffice.ExamService.Data.Interfaces;
 using LT.DigitalOffice.ExamService.Mappers.Models.Interfaces;
 using LT.DigitalOffice.ExamService.Models.Dto.Models;
 using LT.DigitalOffice.Kernel.Extensions;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace LT.DigitalOffice.ExamService.Business.User
 {
-  public class FindUserCourseExamsCommand
+  public class FindUserCourseExamsCommand : IFindUserCourseExamsCommand
   {
     private readonly IUserRepository _userRepository;
     private readonly IUserExamInfoMapper _mapper;

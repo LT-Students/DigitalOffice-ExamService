@@ -32,9 +32,9 @@ namespace LT.DigitalOffice.ExamService.Data
       return dbExam.Id;
     }
 
-    public async Task<DbExam> GetAsync(Guid examId)
+    public Task<DbExam> GetAsync(Guid examId)
     {
-      return await _provider.Exams
+      return _provider.Exams
         .Include(e => e.Questions).ThenInclude(q => q.Answers)
         .FirstOrDefaultAsync(e => e.Id == examId);
     }

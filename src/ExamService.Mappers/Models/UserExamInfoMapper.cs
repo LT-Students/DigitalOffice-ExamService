@@ -25,9 +25,9 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models
       UserExamInfo response = new();
 
       response.Exam = _examMapper.Map(dbExam);
-      response.IsFinished = !dbExam.Questions.Any(q => q.UsersAnswers is null || !q.UsersAnswers.Any());
+      response.IsFinished = dbExam.Questions.Any(q => q.UsersAnswers is not null && q.UsersAnswers.Any());
       response.FinishedAtUtc = response.IsFinished
-        ? dbExam.Questions.FirstOrDefault().UsersAnswers.FirstOrDefault().CreatedAtUtc
+        ? dbExam.Questions.FirstOrDefault()?.UsersAnswers.FirstOrDefault()?.CreatedAtUtc
         : null;
 
       return response;

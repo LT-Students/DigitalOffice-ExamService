@@ -26,6 +26,8 @@ namespace LT.DigitalOffice.ExamService.Mappers.Db
           ParentId = request.ParentId,
           Name = request.Name,
           Description = request.Description,
+          StartDateUtc = request.StartDateUtc,
+          EndDateUtc = request.EndDateUtc,
           CreatedBy = _httpContextAccessor.HttpContext.GetUserId(),
           CreatedAtUtc = DateTime.UtcNow
         };

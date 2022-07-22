@@ -12,6 +12,9 @@ namespace LT.DigitalOffice.ExamService.Models.Db
     public Guid? ParentId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
+    public DateTime? StartDateUtc { get; set; }
+    public DateTime? EndDateUtc { get; set; }
+    public bool IsActive { get; set; }
     public Guid CreatedBy { get; set; }
     public DateTime CreatedAtUtc { get; set; }
     public Guid? ModifiedBy { get; set; }

@@ -14,5 +14,6 @@ namespace LT.DigitalOffice.ExamService.Data.Provider.MsSql.Ef
     DbSet<DbExam> Exams { get; set; }
     DbSet<DbQuestion> Questions { get; set; }
     DbSet<DbUserAnswer> UsersAnswers { get; set; }
+    DbSet<DbUserCourse> UsersCourses { get; set; }
   }
 }
