@@ -42,8 +42,8 @@ namespace LT.DigitalOffice.ExamService.Business.Exam
       List<Guid> creatorsIds = new() { dbExam.CreatedBy };
 
       response.Body = _mapper.Map(
-      dbExam,
-      (await _userService.GetUsersInfoAsync(creatorsIds, response.Errors)));
+        dbExam,
+        await _userService.GetUsersInfoAsync(creatorsIds, response.Errors));
 
       return response;
     }

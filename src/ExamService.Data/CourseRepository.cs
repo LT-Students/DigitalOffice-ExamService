@@ -66,7 +66,7 @@ namespace LT.DigitalOffice.ExamService.Data
         query = query.Include(c => c.Users);
       }
 
-      return _provider.Courses
+      return query
         .Include(c => c.Exams)
         .FirstOrDefaultAsync(c => c.Id == filter.CourseId);
     }
