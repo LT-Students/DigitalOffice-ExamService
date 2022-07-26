@@ -25,7 +25,7 @@ namespace LT.DigitalOffice.ExamService.Broker.Requests
       _logger = logger;
     }
 
-    public async Task<List<UserInfo>> GetUsersDatasAsync(List<Guid> usersIds, List<string> errors)
+    public async Task<List<UserInfo>> GetUsersInfoAsync(List<Guid> usersIds, List<string> errors)
     {
       return usersIds is null || !usersIds.Any()
         ? null

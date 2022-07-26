@@ -36,7 +36,7 @@ namespace LT.DigitalOffice.ExamService.Business.Exam
 
       if (exams.Any())
       {
-        List<UserInfo> users = await _userService.GetUsersDatasAsync(exams.Select(e => e.CreatedBy).ToList(), response.Errors);
+        List<UserInfo> users = await _userService.GetUsersInfoAsync(exams.Select(e => e.CreatedBy).ToList(), response.Errors);
 
         response.Body = exams.Select(e => _mapper.Map(e, users?.FirstOrDefault(u => u.Id == e.CreatedBy))).ToList();
       }

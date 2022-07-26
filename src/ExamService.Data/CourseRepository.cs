@@ -52,11 +52,23 @@ namespace LT.DigitalOffice.ExamService.Data
         await query.CountAsync());
     }
 
-    public Task<DbCourse> GetAsync(Guid courseId)
+    public Task<DbCourse> GetAsync(GetCourseFilter filter)
     {
+      if (filter is null)
+      {
+        return null;
+      }
+
+      IQueryable<DbCourse> query = _provider.Courses.AsQueryable();
+      
+      if (filter.IncludeUsers)
+      {
+        query = query.Include(c => c.Users);
+      }
+
       return _provider.Courses
         .Include(c => c.Exams)
-        .FirstOrDefaultAsync(c => c.Id == courseId);
+        .FirstOrDefaultAsync(c => c.Id == filter.CourseId);
     }
   }
 }

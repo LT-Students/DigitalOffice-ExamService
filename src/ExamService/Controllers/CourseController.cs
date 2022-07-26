@@ -32,9 +32,9 @@ namespace LT.DigitalOffice.ExamService.Controllers
     [HttpGet("get")]
     public async Task<OperationResultResponse<CourseResponse>> GetAsync(
       [FromServices] IGetCourseCommand command,
-      [FromQuery] Guid courseId)
+      [FromQuery] GetCourseFilter filter)
     {
-      return await command.ExecuteAsync(courseId);
+      return await command.ExecuteAsync(filter);
     }
   }
 }

@@ -9,6 +9,6 @@ namespace LT.DigitalOffice.ExamService.Broker.Requests.Interfaces
   [AutoInject]
   public interface IUserService
   {
-    Task<List<UserInfo>> GetUsersDatasAsync(List<Guid> usersIds, List<string> errors);
+    Task<List<UserInfo>> GetUsersInfoAsync(List<Guid> usersIds, List<string> errors);
   }
 }

@@ -8,7 +8,6 @@ using LT.DigitalOffice.Kernel.Helpers;
 using LT.DigitalOffice.Kernel.Responses;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -44,7 +43,7 @@ namespace LT.DigitalOffice.ExamService.Business.Exam
 
       response.Body = _mapper.Map(
       dbExam,
-      (await _userService.GetUsersDatasAsync(creatorsIds, response.Errors)));
+      (await _userService.GetUsersInfoAsync(creatorsIds, response.Errors)));
 
       return response;
     }

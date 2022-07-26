@@ -14,5 +14,6 @@ namespace LT.DigitalOffice.ExamService.Models.Dto.Response.Course
     public DateTime? EndDateUtc { get; set; }
     public bool IsActive { get; set; }
     public List<ExamInfo> Exams { get; set; }
+    public List<UserInfo> Users { get; set; }
   }
 }

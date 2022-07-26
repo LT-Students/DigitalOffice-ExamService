@@ -14,6 +14,6 @@ namespace LT.DigitalOffice.ExamService.Data.Interfaces
 
     Task<(List<DbCourse> courses, int totalCount)> FindAsync(FindCourseFilter filter);
 
-    Task<DbCourse> GetAsync(Guid courseId);
+    Task<DbCourse> GetAsync(GetCourseFilter filter);
   }
 }
