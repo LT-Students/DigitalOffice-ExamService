@@ -37,14 +37,5 @@ namespace LT.DigitalOffice.ExamService.Controllers
     {
       return await command.ExecuteAsync(courseId);
     }
-
-    [HttpPost("UserCourse")]
-    public async Task<OperationResultResponse<bool>> UserCourseAsync(
-      [FromServices] ICreateUserCourseCommand command,
-      [FromQuery] Guid courseId,
-      [FromQuery] Guid userId)
-    {
-      return await command.ExecuteAsync(courseId, userId);
-    }
   }
 }

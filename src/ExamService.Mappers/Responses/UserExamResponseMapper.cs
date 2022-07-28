@@ -1,18 +1,19 @@
 ﻿using LT.DigitalOffice.ExamService.Mappers.Models.Interfaces;
+using LT.DigitalOffice.ExamService.Mappers.Responses.Interfaces;
 using LT.DigitalOffice.ExamService.Models.Db;
 using LT.DigitalOffice.ExamService.Models.Dto.Response.User;
 using System.Linq;
 
 namespace LT.DigitalOffice.ExamService.Mappers.Responses
 {
-  public class UserExamResponseMapper
+  public class UserExamResponseMapper : IUserExamResponseMapper
   {
     private readonly IExamInfoMapper _examMapper;
-    private readonly IUserQuestionMapper _questionMapper;
+    private readonly IUserQuestionInfoMapper _questionMapper;
 
     public UserExamResponseMapper(
       IExamInfoMapper examMapper,
-      IUserQuestionMapper questionMapper)
+      IUserQuestionInfoMapper questionMapper)
     {
       _examMapper = examMapper;
       _questionMapper = questionMapper;

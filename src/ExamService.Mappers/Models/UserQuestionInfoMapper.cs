@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace LT.DigitalOffice.ExamService.Mappers.Models
 {
-  public class UserQuestionInfoMapper
+  public class UserQuestionInfoMapper : IUserQuestionInfoMapper
   {
     private readonly IAnswerInfoMapper _answerMapper;
     private readonly IUserAnswerInfoMapper _userAnswerMapper;

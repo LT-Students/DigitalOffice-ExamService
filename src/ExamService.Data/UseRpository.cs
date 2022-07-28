@@ -46,10 +46,17 @@ namespace LT.DigitalOffice.ExamService.Data
 
     public Task<DbExam> GetAsync(Guid examId, Guid userId)
     {
-      return _provider.Exams
+      IQueryable<DbExam> query = _provider.Exams.AsQueryable();
+
+      query = query
         .Include(e => e.Questions)
-        .ThenInclude(q => q.UsersAnswers.Where(ua => ua.UserId == userId))
-        .FirstOrDefaultAsync(e => e.Id == examId);
+        .ThenInclude(q => q.UsersAnswers.Where(ua => ua.UserId == userId));
+
+      query = query
+        .Include(e => e.Questions)
+        .ThenInclude(q => q.Answers);
+
+      return query.FirstOrDefaultAsync(e => e.Id == examId);
     }
 
     public Task<List<DbExam>> FindCourseExamsAsync(Guid courseId, Guid userId)

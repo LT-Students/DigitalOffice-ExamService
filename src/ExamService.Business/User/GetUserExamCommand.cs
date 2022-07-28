@@ -1,4 +1,5 @@
-﻿using LT.DigitalOffice.ExamService.Data.Interfaces;
+﻿using LT.DigitalOffice.ExamService.Business.User.Interfaces;
+using LT.DigitalOffice.ExamService.Data.Interfaces;
 using LT.DigitalOffice.ExamService.Mappers.Responses.Interfaces;
 using LT.DigitalOffice.ExamService.Models.Dto.Response.User;
 using LT.DigitalOffice.Kernel.Extensions;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LT.DigitalOffice.ExamService.Business.User
 {
-  public class GetUserExamCommand
+  public class GetUserExamCommand : IGetUserExamCommand
   {
     private readonly IUserRepository _userRepository;
     private readonly IUserExamResponseMapper _mapper;
