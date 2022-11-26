@@ -33,6 +33,7 @@ namespace LT.DigitalOffice.ExamService.Mappers.Db
           CourseId = request.CourseId,
           Name = request.Name,
           Description = request.Description,
+          StartDateUtc = request.StartDateUtc,
           DeadLineUtc = request.DeadLineUtc,
           CreatedBy = _httpContextAccessor.HttpContext.GetUserId(),
           CreatedAtUtc = DateTime.UtcNow,

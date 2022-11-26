@@ -12,6 +12,7 @@ namespace LT.DigitalOffice.ExamService.Models.Db
     public Guid CourseId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
+    public DateTime? StartDateUtc { get; set; }
     public DateTime? DeadLineUtc { get; set; }
     public Guid CreatedBy { get; set; }
     public DateTime CreatedAtUtc { get; set; }
