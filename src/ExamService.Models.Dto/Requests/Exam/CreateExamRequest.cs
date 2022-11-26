@@ -11,6 +11,7 @@ namespace LT.DigitalOffice.ExamService.Models.Dto.Requests.Exam
     [Required]
     public string Name { get; set; }
     public string Description { get; set; }
+    public DateTime? StartDateUtc { get; set; }
     public DateTime? DeadLineUtc { get; set; }
     [Required]
     public List<CreateQuestionRequest> Questions { get; set; }

@@ -16,6 +16,7 @@ namespace LT.DigitalOffice.ExamService.Mappers.Models
           ParentId = dbExam.CourseId,
           Name = dbExam.Name,
           Description = dbExam.Description,
+          StartDateUtc = dbExam.StartDateUtc,
           DeadLineUtc = dbExam.DeadLineUtc,
           CreatorInfo = creator,
         };

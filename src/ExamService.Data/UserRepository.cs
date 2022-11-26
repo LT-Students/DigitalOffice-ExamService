@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace LT.DigitalOffice.ExamService.Data
 {
-  public class UserRpository : IUserRepository
+  public class UserRepository : IUserRepository
   {
     private readonly IDataProvider _provider;
 
-    public UserRpository(IDataProvider provider)
+    public UserRepository(IDataProvider provider)
     {
       _provider = provider;
     }
@@ -62,6 +62,7 @@ namespace LT.DigitalOffice.ExamService.Data
     public Task<List<DbExam>> FindCourseExamsAsync(Guid courseId, Guid userId)
     {
       return _provider.Exams
+        .Where(e => e.StartDateUtc != null && e.StartDateUtc < DateTime.Now)
         .Include(e => e.Questions)
         .ThenInclude(q => q.UsersAnswers.Where(ua => ua.UserId == userId))
         .Where(e => e.CourseId == courseId).ToListAsync();
